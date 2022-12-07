@@ -2,17 +2,17 @@
     background-color: #151516;
     Width: 522px;
     Height: 811px;
-    margin-top: 140px;
+    margin-top: 24px;
     margin-left: 138px;
     border-radius: 9px;
 }
 
 .title-section {
     Width: 474px;
-    Height: 94px;
+    Height: 56px;
     border-radius: 6px;
     padding: 16px;
-
+    margin-top: 28px;
 }
 
 .title-section h2 {
@@ -28,7 +28,7 @@
 
 .title-section input {
     Width: 474px;
-    Height: 94px;
+    Height: 56px;
     border-radius: 6px;
     background-color: #48484F;
     border: 1px solid #272729;
@@ -38,7 +38,7 @@
 .sub-title-section {
     Width: 474px;
     Height: 118px;
-    margin-top: 100px;
+    margin-top: 28px;
     padding: 16px;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .loact-action-section {
-    margin-top: 50px;
+    margin-top: 70px;
     width: 474px;
     height: 287px;
     border-radius: 9px;
@@ -75,5 +75,181 @@
     margin-left: 17px;
     border: 1px solid gray;
     border-style: dashed;
+    margin-top: 28px;
+}
 
+.loact-action-section h2 {
+    text-align: center;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+
+.loact-action-section p {
+    text-align: center;
+    font-size: 17px;
+    color: #48484F;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    /* or 141% */
+    text-align: center;
+}
+
+
+.btn-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 12px;
+    margin-top: 12px;
+    margin-left: -60px;
+}
+
+.utube-subs-btn {
+    background-color: rgba(11, 119, 243, 0.26);
+    border: 1px solid rgba(48, 144, 255, 0.16);
+    border-radius: 7px;
+    width: 208px;
+    height: 36px;
+    left: 0%;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.like-video-btn {
+    background-color: rgba(11, 119, 243, 0.26);
+    border: 1px solid rgba(48, 144, 255, 0.16);
+    border-radius: 7px;
+    width: 155px;
+    height: 36px;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.btn-section-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 12px;
+    margin-top: 12px;
+    margin-left: -30px;
+}
+
+.insta-btn {
+    background-color: rgba(11, 119, 243, 0.26);
+    border: 1px solid rgba(48, 144, 255, 0.16);
+    border-radius: 7px;
+    width: 239px;
+    height: 36px;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.btn-section-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 12px;
+    margin-top: 12px;
+}
+
+.visit-btn {
+    background-color: rgba(11, 119, 243, 0.26);
+    border: 1px solid rgba(48, 144, 255, 0.16);
+    border-radius: 7px;
+    width: 160px;
+    height: 36px;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.email-lck-btn {
+    background-color: rgba(11, 119, 243, 0.26);
+    border: 1px solid rgba(48, 144, 255, 0.16);
+    border-radius: 7px;
+    width: 143px;
+    height: 36px;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.custom-btn {
+    background-color: rgba(11, 119, 243, 0.26);
+    border: 1px solid rgba(48, 144, 255, 0.16);
+    border-radius: 7px;
+    width: 114px;
+    height: 36px;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.destination-section {
+    margin-top: 14px;
+    Width: 474px;
+    Height: 94px;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.destination-section h2 {
+    text-align: start;
+    color: #FFFFFF;
+    width: 263px;
+    height: 24px;
+    font-size: 19px;
+}
+
+.destination-section input {
+    width: 472px;
+    height: 56px;
+    background-color: #48484F;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    border: 1px solid #272729;
+    outline-style: none;
+    border-radius: 6px;
+}
+
+.create-link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 12px;
+    margin-top: 24px;
+}
+
+.createyour-Link-btn {
+    width: 309px;
+    height: 52px;
+    background: #0B77F3;
+    border: 1px solid #3090FF;
+    border-radius: 7px;
+    padding: 14px 26px;
+    margin-left: -20px;
+}
+
+.previewBtn {
+    width: 149px;
+    height: 52px;
+    background-color: #1C1C1E;
+    border: 1px solid #272729;
+    border-radius: 7px;
 }
