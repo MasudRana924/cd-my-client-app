@@ -1,0 +1,114 @@
+.signup-section {
+    width: 1440px;
+    height: 960px;
+    background: #0C0C0D;
+    display: flex;
+}
+
+.signup-form-section {
+    width: 720px;
+    height: 960px;
+}
+
+.signup-form {
+    width: 360px;
+    height: 612px;
+    margin-top: 126px;
+    margin-left: 180px;
+}
+.signup-form p{
+    font-size: 16px;
+line-height: 24px;
+color: #B5B5BA;
+text-align: start;
+
+}
+
+.top-form {
+    width: 142px;
+    height: 32px;
+}
+
+.top-form p {
+    color: white;
+}
+
+.signup-form h2 {
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: start;
+}
+
+.form-section {
+    width: 360px;
+    height: 44px;
+}
+.form-section p{
+    color:white;
+    text-align: start;
+}
+.form-section input {
+    width: 360px;
+    height: 44px;
+    background: #1C1C1E;
+    border: 1px solid #272729;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+.forgot-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.remember-text{
+    color: white;
+}
+.forgot-text{
+    color:#5E3BE8;
+}
+.get-btn{
+    width: 360px;
+height: 44px;
+background: #5E3BE8;
+border: 1px solid #5E3BE8;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+margin-bottom: 32px;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #1C1C1E;
+}
+.form-footer-text{
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #B5B5BA;
+
+}
+.login-text{
+    color:#5E3BE8;
+    text-decoration: none;
+
+   
+}
+.signup-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.signup-footer p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #B5B5BA;
+margin:126px 32px 0px 32px;
+}
+
+
+@media only screen and (max-width: 812px) {
+    
+  }

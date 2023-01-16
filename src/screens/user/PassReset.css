@@ -1,0 +1,64 @@
+.reset-pass-section {
+    width: 1440px;
+    height: 960px;
+    background: #0C0C0D;
+}
+.reset-container {
+    position: absolute;
+    width: 408px;
+    height: 350px;
+    margin-left: 520px;
+    margin-top: 96px;
+    background: #151516;
+    border-radius: 12px;
+}
+.reset-container h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #FBFAFF;
+}
+.reset-container p {
+    width: 360px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #DBDBE4;
+    margin-left: 24px;
+
+}
+.forgot-container h3{
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #FBFAFF;
+text-align: start;
+margin-left: 24px;
+}
+.forgot-container input{
+    width: 360px;
+height: 44px;
+left: 0px;
+top: 26px;
+background: #1C1C1E;
+border: 1px solid #39393D;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+}
+.reset-btn{
+    width: 360px;
+height: 44px;
+margin-top: 24px;
+background: #5E3BE8;
+border: 1px solid #5E3BE8;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+font-weight: 600;
+font-size: 17px;
+line-height: 14px;
+color: #FBFAFF;
+margin-bottom: 20px;
+}
